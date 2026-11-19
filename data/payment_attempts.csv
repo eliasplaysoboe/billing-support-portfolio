@@ -1,0 +1,7 @@
+payment_attempt_id,invoice_id,attempted_at,amount,currency,status,failure_code,settled
+PAY-2001,INV-1001,2026-10-02T10:05:00Z,49.00,USD,succeeded,,true
+PAY-2002,INV-1002,2026-10-02T10:12:00Z,49.00,USD,failed,insufficient_funds,false
+PAY-2003,INV-1003,2026-10-02T11:30:00Z,99.00,USD,succeeded,,false
+PAY-2004,INV-1004,2026-10-03T09:00:00Z,19.00,USD,failed,do_not_honor,false
+PAY-2005,INV-1005,2026-10-03T09:15:00Z,149.00,USD,succeeded,,true
+PAY-2006,INV-1005,2026-10-03T09:17:00Z,149.00,USD,failed,duplicate_attempt,false
